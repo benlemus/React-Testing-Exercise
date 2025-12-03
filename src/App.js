@@ -1,5 +1,6 @@
 import "./App.css";
 import Carousel from "./Carousel";
+import CoinFlip from "./CoinFlip";
 import photos from "./photos.js";
 
 /** App component, renders Carousel
@@ -19,6 +20,8 @@ function App() {
   return (
     <div className="App">
       <Carousel photos={carouselPhotos} title={carouselTitle} />
+
+      <CoinFlip />
     </div>
   );
 }
